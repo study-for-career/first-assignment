@@ -91,3 +91,11 @@ header {
     cursor: pointer;
     background: transparent;
 }
+
+.inspiration {
+    text-align: center;
+}
+
+.inspiration p {
+    margin: 25px 0px;
+}
