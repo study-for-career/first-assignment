@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Added common font family for entire page */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Azeret Mono", monospace;
+}
+
+    /* header part background */
+.hero-area {
+    background-image: url(assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25px 220px;
+    text-align: center;
+}
+
+.hero-area img {
+    width: 240px;
+    height: 240px;
+}
+
+.hero-area h2 {
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+.hero-area p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ 
+    /* hero area section button */
+.contact-btn {
+    font-size: 600;
+    padding: 21px 24px;
+    background-color: #0D1321;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
