@@ -29,7 +29,7 @@ header {
     width: 240px;
     height: 240px;
 }
-.web-dev-top-part {
+.web-dev-top-part, .my-current-target{
     margin-top: 30px;
 }
 .hero-area h2 {
@@ -53,6 +53,9 @@ header {
     border: none;
     cursor: pointer;
 }
+
+
+/* Second Section started. Why web development? */
 .web-dev-top-part {
     margin-bottom: 30px;
     text-align: center;
@@ -92,10 +95,46 @@ header {
     background: transparent;
 }
 
+
+/* Third section: my inspiration */
 .inspiration {
     text-align: center;
 }
 
 .inspiration p {
     margin: 25px 0px;
+}
+
+/* Programming Language to learn web development */
+
+.learning-components {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.single-components {
+    width: 330px;
+    background-color: #ff651e10;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.single-components img, .single-components p {
+    margin: 15px 0px;
+    text-align: justify;
+}
+
+.single-components a {
+    color: #000;
+    font-weight: 800;
+}
+
+.bg-second {
+    background-color: #d3cfcf;
+}
+
+.bg-third {
+    background-color: #ffdd0042;
 }
