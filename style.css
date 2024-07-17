@@ -18,7 +18,7 @@ header {
 }
 
 .container {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -29,10 +29,13 @@ header {
     width: 240px;
     height: 240px;
 }
-
+.web-dev-top-part {
+    margin-top: 30px;
+}
 .hero-area h2 {
     font-weight: 800;
     margin: 20px 0px;
+    font-size: 36px;
 }
 
 .hero-area p {
@@ -49,4 +52,42 @@ header {
     border-radius: 5px;
     border: none;
     cursor: pointer;
+}
+.web-dev-top-part {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.web-dev-top-part h2 {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.web-dev-top-part p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.web-dev-sigle-part  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-div {
+    width: 450px;
+}
+
+.single-div-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+
+.web-dev-btn {
+    font-weight: 600;
+    padding: 12px 20px;
+    margin: 20px 0px;
+    cursor: pointer;
+    background: transparent;
 }
